@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Локальное хранилище</title>
+    <meta charset="windows-1251">
+</head>
+<body>
+<div id="editField" style="border: 2px dashed #777; padding: 8px;
+width:512px" contenteditable>
+    Пример текста, который можно сохранить на вашем компьютере.
+</div>
+<button type="button" onClick="sessionStorage.setItem('editData',
+document.getElementById('editField').innerHTML);
+alert('Данные сохранены.')">Сохранить</button>
+<button type="button"
+        onClick="document.getElementById('editField').innerHTML='Текст для избранных:'+sessionStorage.getItem('editData');
+alert('Данные восстановлены.')">Восстановить</button>
+</body>
+</html>

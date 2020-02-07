@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Управление историей просмотра страниц</title>
+    <meta charset="UTF-8">
+</head>
+<script type="text/javascript">
+    <!--
+    function updateLen() {
+        document.getElementById('len').innerHTML = window.history.length ;
+    }
+    function goToUrl() {
+        history.pushState({}, event.target.textContent, event.target.href);
+        updateLen();
+        return event.preventDefault();
+    }
+    function init() {
+        window.addEventListener("popstate", function(e) {
+            updateLen();
+        });
+
+    }
+
+    -->
+</script>
+<body onLoad="init()">
+<p>Длина истории: <span id="len"> <script>updateLen()</script>></span> страниц.</p>
+<p>Навигация по истории: <button onClick="window.history.go('len')">назад на
+    2 страницы</button>, <button onclick="window.history.back()">назад</button> и
+    <button onClick="window.history.forward()">вперед</button>.</p>
+<p>Перейти на <a href="./main.html" onClick="return goToUrl()">главную</a>
+    страницу.<br/>
+    Перейти на <a href="./second.html" onClick="return goToUrl()">вторую</a>
+    страницу.<br/>
+    Перейти на <a href="./third.html" onClick="return goToUrl()">третью</a>
+    страницу.</p>
+</body>
+</html> c

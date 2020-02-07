@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Атрибут contenteditable</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+<div style="border: 2px dashed #777; padding: 8px; width:512px" contenteditable="true">
+    <p>Содержимое данного блока можно редактировать, поскольку для него
+        определен атрибут <i>contenteditable</i>:</p>
+    <code>&lt;div contenteditable="true"&gt;</code>
+    <p>В ходе редактирования ячеек таблицы ширина колонок и высота строчек
+        изменяется автоматически.</p>
+    <table style="border: 1px solid #777;">
+        <tr><th>Колонка 1</th><th>Колонка 2</th><th>Колонка 3</th></tr>
+        <tr><td>Ячейка 11</td><td>Ячейка 12</td><td>Ячейка 13</td></tr>
+        <tr><td>Ячейка 21</td><td>Ячейка 22</td><td>Ячейка 23</td></tr>
+    </table>
+    <p>Для ввода нового элемента списка нажмите [Enter].</p>
+    <ul>
+        <li>Элемент списка 1</li>
+        <li>Элемент списка 2</li>
+        <li>Элемент списка 3</li>
+    </ul>
+    <p><small>После добавления нового элемента в список &lt;ol&gt;
+        н0умерация будет обновлена автоматически.</small></p>
+    <div class="divClass" contenteditable="false">
+    <ol>
+        <li>Элемент нумерованного списка 1</li>
+        <li>Элемент нумерованного списка 2</li>
+        <li>Элемент нумерованного списка 3</li>
+    </ol>
+    </div>
+</div>
+</body>
+</html>

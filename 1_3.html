@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Пользовательские элементы управления</title>
+    <meta charset="UTF-8">5
+</head>
+<body>
+<form>
+    Текст: <input type="text"/><br/>
+    Поиск: <input type="seatch"/><br/>
+    Телефон: <input type="tel"/><br/>
+    URL: <input type="url" value="zntu.edu.ua"/><br/>
+    E-Mail: <input type="email" value="@domain.ru"/><br/><br/>
+    Дата и время: <input type="datetime"/><br/>
+    Дата: <input type="date"/><br/>
+    Месяц: <input type="month"/><br/>
+    Неделя: <input type="week"/><br/>
+    Время: <input type="time"/><br/>
+    Дата и время (местное): <input type="datetime-local"/><br/>
+    Целое число: <input type="number" id="num" min="-100" max="100"
+                        step="10" value="10"
+                        onChange="document.getElementById('ran').value=this.value"/><br/>
+    Число из интервала: <input type="range" id="ran" min="-100" max="100"
+                               step="5" value="10"
+                               onChange="document.getElementById('num').value=this.value"/></font><br/>
+    Цвет: <input type="color"/><br/>
+    <input type="submit" value="Подтвердить"/>
+</form>
+</body>
+</html>

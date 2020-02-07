@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Визуализация числовых величин</title>
+    <meta charset="UTF-8">
+</head>
+<body onLoad="window.setInterval(function() { var
+e=document.getElementById('pbar'); if (e.value<100) e.value++; else e.value=0; },
+100)">
+<meter min="-50" low="-10" high="30" max="50" value="-15"
+       title="градусы"></meter><br/>
+<meter min="-50" low="-10" high="30" max="50" value="20" optimum="20"
+       title="снова градусы"></meter><br/>
+<meter min="-50" low="-10" high="30" max="50" value="35" title="все те же
+градусы"></meter><br/>
+<progress id="pbar" max="100" value="0"></progress>
+</body>
+</html>
