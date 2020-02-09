@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>Тег &lt;audio&gt;</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+<audio id="player" controls>
+    <source src="m/Chipdisco.ogg" type="audio/ogg">
+    <source src="m/Chipdisco.mp3" type="audio/mpeg">
+    Ваш браузер не поддерживает тег <b>&lt;audio&gt;</b>!
+</audio>
+<div>
+    <button type="button" onClick="const p=document.getElementById('player'); p.pause(); p.currentTime=0;">Стоп</button>
+    <button type="button" onClick="document.getElementById('player').pause()">Пауза</button>
+    <button type="button" onClick="document.getElementById('player').play()">Воспроизведение</button>
+    <br/>
+    <button type="button" onClick="document.getElementById('player').volume-=0.1">Убавить громкость</button>
+    <button type="button" onClick="document.getElementById('player').volume+=0.1">Прибавить громкость</button>
+</div>
+</body>
+</html>

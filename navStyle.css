@@ -1,0 +1,19 @@
+div{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border: 2px solid black;
+    width: 40%;
+    background-color: darkorchid;
+}
+a{
+    color: white;
+    font-size: 25px;
+}
+a:hover{
+    font-size: 30px;
+    color: black;
+}
+ul{
+    color: white;
+}

@@ -1,0 +1,45 @@
+.basket {
+    border: 1px solid #777;
+    width: 108px;
+    height: 120px;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    margin: 8px;
+}
+
+.basket0 {
+    background-color: #e99;
+}
+
+.basket1 {
+    background-color: #9ce;
+}
+
+.basket2 {
+    background-color: #9e9;
+}
+
+.ball {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #777;
+    border-radius: 15px;
+    margin: 4px;
+}
+
+.basket .ball {
+    margin: 2px;
+}
+
+.ball0 {
+    background-color: #F55;
+}
+
+.ball1 {
+    background-color: #59F;
+}
+
+.ball2 {
+    background-color: #5F5;
+}

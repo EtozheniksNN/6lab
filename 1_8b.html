@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head><title>Обмен сообщениями между страницами. Страница-приемник</title>
+    <meta charset="windows-1251">
+</head>
+<script type="text/javascript">
+    function receiveMessage(event) {
+        document.body.innerHTML = "ДА КАК ЭТО РАБОТАЕТ, А?!: " + event.data;
+    }
+    function init() {
+        if (window.addEventListener) {
+            window.addEventListener("message", receiveMessage, false)
+        }
+
+    }
+
+
+
+</script>
+<body onLoad="init()"><i>Ожидание сообщения...</i></body>
+</html>

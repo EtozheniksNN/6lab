@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head><title>Тег &lt;video&gt;</title>
+    <meta charset="windows-1251">
+</head>
+<body>
+<video  style="margin: 0 auto;"     id="player" poster="m/Freddie%20Mercury%20Google%20Doodle.jpg" controls>
+    <source src="m/Freddie%20Mercury%20Google%20Doodle.webm" type="video/webm">
+    <source src="m/Freddie%20Mercury%20Google%20Doodle.mp4" type="video/mp4">
+    <track label="English subtitles" kind="subtitles" srclang="en" src="m/Freddie%20Mercury%20Google%20Doodle.vtt"
+           default>
+    Ваш браузер не поддерживает тег <b>&lt;video&gt;</b>!
+</video>
+<div>
+    <button type="button" onClick="const p=document.getElementById('player'); p.pause(); p.currentTime=0;">Стоп</button>
+    <button type="button" onClick="document.getElementById('player').pause()">Пауза</button>
+    <button type="button" onClick="document.getElementById('player').play()">Воспроизведение</button>
+    <br/>
+    <button type="button" onClick="document.getElementById('player').volume-=0.1">Убавить громкость</button>
+    <button type="button" onClick="document.getElementById('player').volume+=0.1">Прибавить громкость</button>
+</div>
+</body>
+</html>

@@ -1,10 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><title>Обмен сообщениями между страницами. Страница-отправитель</title>
     <meta charset="UTF-8">
-    <title>Title</title>
 </head>
-<body>
+<script type="text/javascript">
+    popup = null;
 
-</body>
+    function sendMessage() {
+        const message = document.getElementById('messageDiv').innerHTML;
+        const target = document.getElementById('targetFrame');
+        if (popup) {
+            popup.postMessage(message, "*");
+        } else {
+            target.contentWindow.postMessage(message, "*");
+        }
+        return false;
+    }
+</script>
+<body>
+<form id="form" onSubmit="return sendMessage()">
+    <div id="messageDiv" style="border: 2px solid #777; width:256px; padding:8px;" contenteditable>Текст сообщения</div>
+    <input type="submit"></form>
+<br/>
+
+<iframe id="targetFrame" src="./1_8b.html" style="border: 2px solid #0F0; width:256px; padding:8px;"></iframe>
+<br/><a href="#" onClick="popup=window.open('./1_8b.html')">Открыть страницу приемник</a> <br/>
+<a href="#" onClick= "if(popup){popup.close(); popup=null; }">Закрыть страницу-приемник</a></body>
 </html>

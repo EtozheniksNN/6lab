@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74068341-0a22-454c-b3c2-e701a18d2bff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1_8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_12.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_12.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_13.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_8b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/navStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/navigation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/1_7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_8.html" beforeDir="false" afterPath="$PROJECT_DIR$/1_8.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +27,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -35,10 +46,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -69,6 +81,8 @@
       <updated>1581063038524</updated>
       <workItem from="1581063044323" duration="4345000" />
       <workItem from="1581098274471" duration="2162000" />
+      <workItem from="1581178968851" duration="2564000" />
+      <workItem from="1581200332459" duration="7963000" />
     </task>
     <servers />
   </component>
@@ -80,7 +94,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head><title>Перетаскивание элементов</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./1_12.css">
+    <script type="text/javascript" src="1_12.js"></script>
+</head>
+<script type="text/javascript">
+
+ </script>
+<body onLoad="init()">
+<table>
+    <tr>
+        <td>
+            <div class="basket basket0" id="red" onDragEnter="return true" onDragOver="return over()"
+                 onDrop="return drop()"></div>
+        </td>
+        <td>
+            <div class="basket basket1" id="blue" onDragEnter="return true" onDragOver="return over()"
+                 onDrop="return drop()"></div>
+        </td>
+        <td>
+            <div class="basket basket2" id="green" onDragEnter="return true" onDragOver="return over()"
+                 onDrop="return drop()"></div>
+        </td>
+    </tr>
+</table>
+<div id="balls"></div>
+</body>
+</html>
